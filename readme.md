@@ -26,3 +26,12 @@ Please add `toolchains.xml` to local `.m2` repository if needed to compile `java
   </toolchain>
 </toolchains>
 ```
+
+# Stack
+
+Current application stack
+
+- Java 9
+- Maven 3
+- Travis-CI
+- Heroku
