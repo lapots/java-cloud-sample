@@ -6,7 +6,7 @@
       <vendor>oracle</vendor>
     </provides>
     <configuration>
-      <jdkHome>path/to/jdk-9</jdkHome>
+      <jdkHome>/usr/lib/jvm/java-9-oracle</jdkHome>
     </configuration>
   </toolchain>
   <toolchain>
@@ -16,7 +16,7 @@
       <vendor>oracle</vendor>
     </provides>
     <configuration>
-      <jdkHome>path/to/jdk1.8.0_121</jdkHome>
+      <jdkHome>/usr/lib/jvm/java-8-oracle</jdkHome>
     </configuration>
   </toolchain>
 </toolchains>
