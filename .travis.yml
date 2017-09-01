@@ -11,7 +11,8 @@ deploy:
   api_key:
     secure: OU2aHmkdTvfwObOPowyDmpwK/Wdbo+CrJ3MaskKBi8gPA5gm8JPnOrWpl2GzZ3u30NNyCwhV7r+9MionsW98bS0k6Qp4uLHSowG3fWVD0rRNaHn5RMByrxDPSRLHjqFu6Y7JaQw5SYFDXNxuSVWPUVXAAt39vmBMR8xvDmiCeZMmFPsw9bM0xye9NiO1b/+/ILUC36tSBEalyBHHb/rgvjUVI5KeRCeoby/LPmTNCjVd4Jr6Lw6/Q/W23WbzZsS2AgQRV3una206mldfGonWU5LTyQm75rw25yiFpBpj0ZwPSgrSLl/WAKQ8OE4+OVi/lHJ5d/RR20Kuclvu3js9Ur5oQllXi7fbKRkYfRRvFi31tLEpjZKQOu4cPAHOvJq03khGwLUBChex2yZkA2n2PFlCbmLerA0hFvT2Cy9/p+1kZaqqRxP3Mp/pls0XjeAHnXTucOqYjI+2m50B93nXOvLI7EDqUfW28zXmkPiRVbJLOCcqdi++z/5QMVOeHJPYvmHkEyIvcPBUb1NxeLL2UIkDF8y03Ksrf8CB5bc0JstlOTPVaZJz5NzQsCkdsjUrA6cUUxw7DNjNH+pa1cI8WPF/xDJq7i01OUKs4kJ2QeMHx9bYOXf2QvqkkWeZLmlEC0HDc5DgxMtV/utZOHRbx417N5Q7OvtYRP57+kpddYg=
 before_install:
-  - cp toolchains.xml ~/.m2/
+  - cp toolchains-travis.xml ~/.m2/
+  - mv ~/.m2/toolchains-travis.xml ~/.m2/toolchains.xml
 install:
   - mvn -N io.takari:maven:wrapper
   - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
