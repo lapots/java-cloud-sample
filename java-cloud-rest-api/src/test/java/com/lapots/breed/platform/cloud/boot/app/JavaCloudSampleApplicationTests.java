@@ -1,4 +1,4 @@
-package com.lapots.breed.platform.cloud.javacloudsample;
+package com.lapots.breed.platform.cloud.boot.app;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

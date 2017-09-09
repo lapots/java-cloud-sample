@@ -1,4 +1,4 @@
-package com.lapots.breed.platform.cloud.javacloudsample;
+package com.lapots.breed.platform.cloud.boot.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
