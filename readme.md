@@ -7,5 +7,6 @@ Current application stack
 
 - Java 9
 - Maven 3
+- Spring Boot 2
 - Travis-CI
 - Heroku
