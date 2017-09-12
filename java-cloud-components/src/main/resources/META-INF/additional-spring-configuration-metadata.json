@@ -1,0 +1,7 @@
+{
+  "properties": [{
+    "name": "java.cloud.redis.topic",
+    "type": "java.lang.String",
+    "description": "Redis topic"
+  }]
+}

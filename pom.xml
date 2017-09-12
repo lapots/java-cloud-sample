@@ -10,6 +10,10 @@
 
     <modules>
         <module>java-cloud-rest-api</module>
+        <module>java-cloud-exception-api</module>
+        <module>java-cloud-logging-api</module>
+        <module>java-cloud-components</module>
+        <module>java-cloud-devtools</module>
     </modules>
 
     <properties>

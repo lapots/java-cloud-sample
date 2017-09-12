@@ -28,3 +28,6 @@ classes
 
 *.txt
 *.db
+
+activemq-data
+java-cloud-rest-api/activemq-data

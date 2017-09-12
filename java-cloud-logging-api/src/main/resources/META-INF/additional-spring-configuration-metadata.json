@@ -1,0 +1,11 @@
+{
+  "properties": [{
+    "name": "java.cloud.logging.logging-queue",
+    "type": "java.lang.String",
+    "description": "Main logger queue"
+  },{
+    "name": "java.cloud.logging.logging-exchange",
+    "type": "java.lang.String",
+    "description": "AMQP exchange"
+  }]
+}

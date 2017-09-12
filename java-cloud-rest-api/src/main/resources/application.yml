@@ -1,0 +1,16 @@
+management:
+  security:
+    enabled: false
+spring:
+  activemq:
+    broker-url: vm://localhost
+  rabbitmq:
+    host: localhost
+    port: 5672
+java:
+  cloud:
+    logging:
+      logging-queue: logger-queue
+      logging-exchange: logger-exchange
+    redis:
+      topic: redis-topic

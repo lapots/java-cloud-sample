@@ -3,10 +3,20 @@
 
 # Stack
 
-Current application stack
+Current application stack in this branch
 
-- Java 9
+- Java 8
 - Maven 3
-- Spring Boot 2
+- Spring Boot 1.5.6
 - Travis-CI
-- Heroku
+- Heroku (not supported for branch)
+- Spring JPA
+- Spring AOP
+- Spring Actuator
+- Project Lombok
+- Java Messaging Service
+- ActiveMQ
+- Redis
+- WebSockets
+- RabbitMQ
+- Slf4j + Logback
